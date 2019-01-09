@@ -32,13 +32,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Btj-qh-mDF">
+                                <rect key="frame" x="0.0" y="448" width="375" height="219"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Btj-qh-mDF" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="7ga-X6-MsV"/>
+                            <constraint firstItem="Btj-qh-mDF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="j3m-8H-mvU"/>
+                            <constraint firstItem="Btj-qh-mDF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lWT-qh-8DU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>
